@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>777</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="hey">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/nZafSV.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>801</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 36pt &quot;Rockwell&quot;;
+color: white; 
+text-align: center; 
+border: 10px solid black;
+border-radius: 50px; 
+padding: 10px;
+background-color: grey; </string>
+      </property>
+      <property name="text">
+       <string>                    EncroNote</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>781</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>100</number>
+    </property>
+    <property name="rightMargin">
+     <number>100</number>
+    </property>
+    <item>
+     <widget class="QLineEdit" name="FileName"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Browse">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>781</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="Copy">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+
+background-color: grey;
+color: white;
+font: 75 21pt &quot;Rockwell&quot;;
+border-radius: 15px;
+border: 4px solid black; 
+padding: 10px; 
+}
+QPushButton:hover
+{
+border: 0px; 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Copy contents</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Decrypt">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+
+background-color: grey;
+color: white;
+font: 75 21pt &quot;Rockwell&quot;;
+border-radius: 15px;
+border: 4px solid black; 
+padding: 10px; 
+}
+QPushButton:hover
+{
+border: 0px; 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Decrypt </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Encrypt">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+
+background-color: grey;
+color: white;
+font: 75 21pt &quot;Rockwell&quot;;
+border-radius: 15px;
+border: 4px solid black; 
+padding: 10px; 
+}
+QPushButton:hover
+{
+border: 0px; 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Encrypt </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="Error">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>343</y>
+     <width>521</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Rockwell&quot;;
+color: red; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Success">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>343</y>
+     <width>521</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Rockwell&quot;;
+color: Green
+; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
